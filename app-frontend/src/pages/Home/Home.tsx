@@ -20,9 +20,9 @@ export const Home: React.FC = () => {
   return (
     <Container className="mt-4">
       <h1 className="text-center mb-4">Frontend Webshop</h1>
-      <Row>
-        <Col md={6} lg={4} className="mb-4">
-          <Card>
+      <Row className="d-flex justify-content-between">
+        <Col md={3} lg={3} className="mb-4">
+          <Card className="h-100">
             <Card.Body>
               <Card.Title>/products</Card.Title>
               <Card.Text>
@@ -41,8 +41,8 @@ export const Home: React.FC = () => {
           </Card>
         </Col>
 
-        <Col md={6} lg={4} className="mb-4">
-          <Card>
+        <Col md={3} lg={3} className="mb-4">
+          <Card className="h-100">
             <Card.Body>
               <Card.Title>/cart</Card.Title>
               <Card.Text>
@@ -58,8 +58,8 @@ export const Home: React.FC = () => {
           </Card>
         </Col>
 
-        <Col md={6} lg={4} className="mb-4">
-          <Card>
+        <Col md={3} lg={3} className="mb-4">
+          <Card className="h-100">
             <Card.Body>
               <Card.Title>/register & /login</Card.Title>
               <Card.Text>
@@ -73,8 +73,8 @@ export const Home: React.FC = () => {
           </Card>
         </Col>
 
-        <Col md={6} lg={4} className="mb-4">
-          <Card>
+        <Col md={3} lg={3} className="mb-4">
+          <Card className="h-100">
             <Card.Body>
               <Card.Title>/profile</Card.Title>
               <Card.Text>
